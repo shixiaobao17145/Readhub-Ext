@@ -1,6 +1,6 @@
 {
   "name": "readhub-extension",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A extension for readhub.me",
   "scripts": {
     "build": "node utils/build.js",

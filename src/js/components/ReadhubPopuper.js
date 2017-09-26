@@ -43,7 +43,7 @@ export default class ReadhubPopuper extends React.Component{
 				cls.push('loaded');
 				console.log('update iframe class name');
 			}
-			return <iframe src="https://readhub.me" ref="ifrmReadhub" className={cls.join(' ')} onLoad={()=>this.onIframeLoad()}> </iframe>
+			return <iframe src="https://readhub.me" ref="ifrmReadhub" name="ifrmReadhub" className={cls.join(' ')} onLoad={()=>this.onIframeLoad()}> </iframe>
 		}
 	}
 	render(){
